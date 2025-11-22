@@ -1,0 +1,5 @@
+version: '3'
+services:
+  my-mlops-app:
+    image: my-python-app:v1
+    container_name: mlops-container-test
